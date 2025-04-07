@@ -1,0 +1,129 @@
+[
+  {
+    "inputs": [],
+    "name": "spawnIndex",
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "spawnedCoin",
+    "outputs": [
+      { "internalType": "contract IERC20", "name": "", "type": "address" }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "configuration",
+    "outputs": [
+      {
+        "internalType": "contract IMiningPerCycle",
+        "name": "miningChecker",
+        "type": "address"
+      },
+      { "internalType": "uint256", "name": "spawnLastsFor", "type": "uint256" },
+      {
+        "internalType": "uint256",
+        "name": "globalMaxMined",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "maxSpawnAmountNumerator",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "rewardCoinRateNumerator",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "checkCycleDeltas",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "cycleDeltaNumerator",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "minimumSpawnAmount",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "readConfiguration",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "contract IMiningPerCycle",
+            "name": "miningChecker",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "spawnLastsFor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "globalMaxMined",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "maxSpawnAmountNumerator",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "rewardCoinRateNumerator",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "checkCycleDeltas",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "cycleDeltaNumerator",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "minimumSpawnAmount",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct SpawnConfigurationParams",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      { "internalType": "uint256", "name": "_spawnerIndex", "type": "uint256" },
+      { "internalType": "uint256", "name": "_amount", "type": "uint256" }
+    ],
+    "name": "spawnThrough",
+    "outputs": [
+      { "internalType": "uint256", "name": "spawnAmount", "type": "uint256" }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "MAINNET": {
+    "PRIVATE_KEY": "",
+    "RPC": "https://ethereum.publicnode.com", 
+    "RPC1": "https://rpc.mevblocker.io",
+    "RPC2": "https://eth.drpc.org",
+    "SPAWNER_MANAGER": "0x08939a9A6AEFBd4bF9c0E128ed027591913393ca",
+    "MINING_RIG": "0x86D27a2c844c1bC559599cE68aa15d54F57E1EDF",
+    "PNDC": "0x423f4e6138E475D85CF7Ea071AC92097Ed631eea",
+    "PEPE": "Pepe"
+  },
+  "TESTNET": {
+    "PRIVATE_KEY": "",
+    "RPC": "https://ethereum-sepolia.publicnode.com", 
+    "SPAWNER_MANAGER": "0xd3752eaFA9BDeb7e71DCbe33335225617a6168Ac",
+    "MINING_RIG": "0x5556ACA5Cf6c53e0Cea25FD7a8F7d83532b081E0",
+    "PNDC": "0x8E117E516321A9e1398ad78053F02ba7aE5d26F5",
+    "PEPE": "Pepe"
+  }
+}
