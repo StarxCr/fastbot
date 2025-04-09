@@ -1,4 +1,4 @@
-*Repos was created more than a year ago and no longer maintained or works*
+*Repo was created more than a year ago and no longer maintained or works*
 
 # Spawn bot 
 ## How does it work?
